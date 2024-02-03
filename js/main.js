@@ -1,6 +1,4 @@
-
-// Matrix canvas variables
-
+// Matrix effet canvas
 const canvas = document.getElementById('canvas');
 const context = canvas.getContext('2d');
 
@@ -16,7 +14,6 @@ var drops = [];
 
 for (let i=0; i<columns; i++) {
     drops.push(0);
-
 }
 
 const latin = "This is your last chance After this there is no turning back You take the blue pill the story ends you wake up in your bed and believe whatever you want to believe You take the red pill you stay in Wonderland and I show you how deep the rabbit hole goes";
@@ -51,3 +48,19 @@ const draw = () => {
 
 draw();
 setInterval(draw, 35);
+
+// game panels
+const panels = document.querySelectorAll('.panel');
+
+const removeActiveClasses = () => {
+    panels.forEach((panel) => {
+        panel.classList.remove('active');
+    });
+};
+
+panels.forEach((panel) => {
+    panel.addEventListener('click', () => {
+        removeActiveClasses();
+        panel.classList.add('active');
+    });
+});

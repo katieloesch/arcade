@@ -118,7 +118,7 @@ I also created a wireframe on Excalidraw to get an idea of the basic layout of t
 
 I wanted the background to look like the matrix effect so I created a canvas element and some JS code for the animation.
 
-<img src="./assets/images/matrix_effect.jpg" alt="screenshot of backdrop with matrix effect" width="550">
+<img src="./assets/images/matrix_effect.jpg" alt="screenshot of backdrop with matrix effect" width="700">
 
 ### Day 2 - 23/01/2024
 
