@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 html {
@@ -11,8 +12,44 @@ html {
 
 body {
     height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    overflow: hidden;
+    position: relative;
 }
 
 #canvas {
     background-color: rgb(17, 17, 17);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.panels-container {
+   position: relative;
+   z-index: 1;
+}
+
+#panel-hangman {
+    background-color: blueviolet;
+}
+
+#panel-ttt {
+    background-color: blanchedalmond;
+
+}
+
+#panel-simon {
+    background-color: green;
+
+}
+
+#panel-rps {
+    background-color: orange;
+
 }

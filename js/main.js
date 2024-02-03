@@ -19,7 +19,12 @@ for (let i=0; i<columns; i++) {
 
 }
 
-let str = "This is your last chance After this there is no turning back You take the blue pill the story ends you wake up in your bed and believe whatever you want to believe You take the red pill you stay in Wonderland and I show you how deep the rabbit hole goes 你服下蓝色药丸故事就结束了你在床上醒来相信你想相信的切服下红色药丸你留在仙境我告诉你兔子洞有多深 あなたは赤い薬を飲むとワンダランドに留まるそして私はウサギの穴がどれほど深いかを教えてあげる";
+const latin = "This is your last chance After this there is no turning back You take the blue pill the story ends you wake up in your bed and believe whatever you want to believe You take the red pill you stay in Wonderland and I show you how deep the rabbit hole goes";
+const chinese = "你服下蓝色药丸故事就结束了你在床上醒来相信你想相信的切服下红色药丸你留在仙境我告诉你兔子洞有多深 あなたは赤い薬を飲";
+const japanese = "むとワンダランドに留まるそして私はウサギの穴がどれほど深いかを教えてあげる";
+const nums = "01234567890123456789"
+
+const str = latin + chinese + japanese + nums
 
 const draw = () => {
     context.fillStyle = "rgba(0, 0, 0, 0.05)";

@@ -72,6 +72,7 @@ No installations are required to run this application. The only tools needed are
 
 - matrix effect canvas:
   - [Hacking Matrix Rain Effect using HTML CSS & JavaScript](https://www.youtube.com/watch?v=uIq9gmlenlA&list=PL5TCQHRtvHGkuR2YZDf_2lDFuc9m5OUlO&index=22) by [CodeCreative](https://www.youtube.com/@CodeCreativeYT)
+  - [Matrix raining code effect using HTML, CSS and Javascript](https://www.youtube.com/watch?v=y4K_5CVz7Cs&list=PL5TCQHRtvHGkuR2YZDf_2lDFuc9m5OUlO&index=21) by [JavaScript Academy](https://www.youtube.com/@JsAcademyOfficial)
 
 ## <a name="deliverables"></a> 5. Deliverables
 
@@ -117,7 +118,7 @@ I also created a wireframe on Excalidraw to get an idea of the basic layout of t
 
 I wanted the background to look like the matrix effect so I created a canvas element and some JS code for the animation.
 
-<img src="./assets/images/matrix_effect.jpg" alt="screenshot of backdrop with matrix effect" width="450">
+<img src="./assets/images/matrix_effect.jpg" alt="screenshot of backdrop with matrix effect" width="550">
 
 ### Day 2 - 23/01/2024
 
