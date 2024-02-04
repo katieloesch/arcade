@@ -1,4 +1,14 @@
-* {
+
+:root {
+    /* colours */
+    --black: rgb(0, 0, 0);
+    --white: rgb(255, 255, 255);
+    --green: rgb(0, 204, 51);
+
+    /* fonts */
+}
+
+*, *::before, *::after {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -15,7 +25,8 @@ body {
     height: 100%;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
+    flex-direction: column;
     min-height: 100vh;
     overflow: hidden;
     position: relative;
@@ -30,6 +41,19 @@ body {
     width: 100%;
     height: 100%;
     z-index: -1;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 10%;
+    font-size: 1.5rem;
+}
+
+header h1 {
+    color: var(--green);
 }
 
 .panels-container {
@@ -53,26 +77,44 @@ body {
     justify-content: center;
     cursor: pointer;
     color: white;
-    flex: 0.5;
+    flex: 1;
     margin: 10px;
     position: relative;
-    transition: flex 0.7s ease-in;
-    -webkit-transition: all 700ms ease-in;
+    transition: flex 0.7s ease-in-out;
+    -webkit-transition: all 700ms ease-in-out;
 }
 
 .panel.active {
     flex: 5;
 }
 
-.panel h3 {
+.panel .panel-label {
     font-size: 24px;
-    top: 20px;
-    left: 20px;
+    /* top: 20px;
+    left: 20px; */
     position: absolute;
+
+    /* inset: 0; */
+    opacity: 1;
+
+    transform: rotate(-90deg) translateX(-1px);
+
+}
+
+.panel.active .panel-label {
+    opacity: 1;
+    transform: unset;
+    transition: all 0.7s ease-in-out;
+    position: relative;
+
+    
+}
+
+.panel .panel-details {
     opacity: 0;
 }
 
-.panel.active h3 {
+.panel.active .panel-details {
     opacity: 1;
     transition: opacity 0.3s ease-in 0.4s;
 }
@@ -82,7 +124,7 @@ body {
 }
 
 #panel-ttt {
-    background-color: rgb(158, 217, 70);
+    background-color: rgb(127, 193, 28);
 }
 
 #panel-simon {

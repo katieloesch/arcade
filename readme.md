@@ -71,8 +71,13 @@ No installations are required to run this application. The only tools needed are
 ### Resources and tutorials:
 
 - matrix effect canvas:
+
   - [Hacking Matrix Rain Effect using HTML CSS & JavaScript](https://www.youtube.com/watch?v=uIq9gmlenlA&list=PL5TCQHRtvHGkuR2YZDf_2lDFuc9m5OUlO&index=22) by [CodeCreative](https://www.youtube.com/@CodeCreativeYT)
   - [Matrix raining code effect using HTML, CSS and Javascript](https://www.youtube.com/watch?v=y4K_5CVz7Cs&list=PL5TCQHRtvHGkuR2YZDf_2lDFuc9m5OUlO&index=21) by [JavaScript Academy](https://www.youtube.com/@JsAcademyOfficial)
+
+- Expanding game panels:
+  - [How to Create Expanding Cards with HTML CSS JavaScript](https://www.youtube.com/watch?v=p_2ByC1BJaU) by [Mystery Code](https://www.youtube.com/@MysteryCode)
+  - [How to Create Expandable Cards on Hover with HTML & CSS](https://www.youtube.com/watch?v=9DKm6ykbBVA&list=PL5TCQHRtvHGkuR2YZDf_2lDFuc9m5OUlO&index=28) by [Mute Coder](https://www.youtube.com/@MuteCoder)
 
 ## <a name="deliverables"></a> 5. Deliverables
 
